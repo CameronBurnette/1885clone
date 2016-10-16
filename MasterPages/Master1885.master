@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master1885.master.cs" Inherits="MasterPages_Master1885" %>
+  <?xml version="1.0" encoding="utf-8" standalone="no" ?>
+  <!DOCTYPE html>
+  <html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>1885 Grill | Southern coastal restaurant located in the beautiful St. Elmo neighborhood of Chattanooga, Tennessee
+      </title>
+      <asp:ContentPlaceHolder ID="head" runat="server">
+      </asp:ContentPlaceHolder>
+      <script src="/Scripts/modernizr-2.7.1.js">
+      </script>
+    </head>
+    <body>
+      <div class="header-wrapper">
+        <header style="position: inherit; float: none">
+          <div class="logo-wrapper">
+            <a href="../Default.aspx">
+              <h1>1885 Grill
+              </h1>
+              <img src="../App_Themes/Theme1885/Images/1885-logo.svg" width="339" height="100" alt="1885 Grill - Southern Coastal Restaurant in St. Elmo Chattanooga, TN" />
+            </a>
+          </div>
+          <div class="nav-collapse">
+            <nav role="navigation">
+              <form runat="server" style="float: right; bottom: 0px;">
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False"  />
+              </form>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <div>
+        <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+      <footer class="clearfix">
+        <div class="wrapper">
+          <div class="grid">
+            <section id="site-index" class="col-1-4">
+              <h3>1885 Grill
+              </h3>
+              <ul>
+                <li>
+                  <a href="../About/">About
+                  </a>
+                </li>
+                <li>
+                  <a href="../Menu/">Menu
+                  </a>
+                </li>
+                <li>
+                  <a href="../Friends/">Friends
+                  </a>
+                </li>
+                <li>
+                  <a href="..Contact/">Contact
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section class="col-1-4">
+              <h3>Proudly located at
+              </h3>
+              <p>
+                <a href="http://goo.gl/maps/4oWmU">3914 St Elmo Ave
+                  Chattanooga, TN&nbsp;37409
+                </a>
+              </p>
+            </section>
+            <section class="col-1-4">
+              <h3>Get in touch
+              </h3>
+              <ul>
+                <li>
+                  <a href="tel:4234853050">423.485.3050
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@1885Grill.com">info@1885grill.com
+                  </a>
+                </li>
+                <li>
+                </li>
+              </ul>
+            </section>
+            <section class="col-1-2 social-icons">
+              <h3>Let's be friends
+              </h3>
+              <a class="icon" href="https://www.facebook.com/1885Grill">
+                <img src="http://1885grill.com/1885/wp-content/themes/1885-Grill/assets/images/icons/social/facebook.svg" alt="facebook"  />
+              </a>
+              <a class="icon" href="https://twitter.com/1885grill">
+                <img src="http://1885grill.com/1885/wp-content/themes/1885-Grill/assets/images/icons/social/twitter.svg" alt="twitter"  />
+              </a>
+              <a class="icon" href="http://instagram.com/1885grill">
+                <img src="http://1885grill.com/1885/wp-content/themes/1885-Grill/assets/images/icons/social/instagram.svg" alt="instagram"  />
+              </a>
+              <a class="icon" href="http://www.tripadvisor.com/Restaurant_Review-g54946-d4451210-Reviews-or10-1885_Grill-Chattanooga_Tennessee.html">
+                <img src="http://1885grill.com/1885/wp-content/themes/1885-Grill/assets/images/icons/social/tripadvisor.svg" alt="tripadvisor"  />
+              </a>
+            </section>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
