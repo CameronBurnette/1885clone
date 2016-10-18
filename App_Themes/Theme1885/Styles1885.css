@@ -157,7 +157,7 @@ a {
         color: #ba8344;
     }
 
-    a.button {
+    .button {
         display: inline-block;
         padding: .35em .65em;
         margin-bottom: 1.25em;
@@ -170,7 +170,7 @@ a {
         transition: all 0.2s linear;
     }
 
-        a.button:hover {
+        .button:hover {
             background-color: #a7763d;
         }
 
@@ -583,6 +583,7 @@ footer .icon img {
             line-height: 1;
             color: #fff;
             text-align: left;
+            margin-top: 1.25em;
             text-shadow: 0 0 8px rgba(0,0,0,0.45);
         }
 

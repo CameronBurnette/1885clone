@@ -55,7 +55,7 @@
          <p>1885 Grill e-gift cards are now available. You can print them, email them as gifts, or redeem them from your mobile phone. They look great, make great gifts, and never expire!</p>
            <!-- Featured section including button -->
               <!-- asp button control goes here, but cannot find work-around for running 2 <form> elements on a single webform -->
-           <a href="https://1885grill.instagift.com/" class="button">Order Gift Card</a>
+           <asp:LinkButton ID="Button1" runat="server" Text="Order Gift Card" OnClick="Button1_Click" />
       </div>
     </div>
   </div>

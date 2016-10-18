@@ -13,6 +13,7 @@
       </script>
     </head>
     <body>
+    <form runat="server">
       <div class="header-wrapper">
         <header style="position: inherit; float: none">
           <div class="logo-wrapper">
@@ -24,11 +25,9 @@
           </div>
           <div class="nav-collapse">
             <nav role="navigation">
-              <form runat="server" style="float: right; bottom: 0px;">
                 <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
                 </asp:Menu>
-                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False"  />
-              </form>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False"  />              
             </nav>
           </div>
         </header>
@@ -37,6 +36,7 @@
         <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
         </asp:ContentPlaceHolder>
       </div>
+      </form>
       <footer class="clearfix">
         <div class="wrapper">
           <div class="grid">
@@ -85,26 +85,28 @@
                 </li>
                 <li>
                 </li>
+                  <a href="../App_Themes/Theme1885/Images/twitter.svg">../App_Themes/Theme1885/Images/twitter.svg</a>
               </ul>
             </section>
             <section class="col-1-2 social-icons">
               <h3>Let's be friends
               </h3>
               <a class="icon" href="https://www.facebook.com/1885Grill">
-                <img src="http://1885grill.com/1885/wp-content/themes/1885-Grill/assets/images/icons/social/facebook.svg" alt="facebook"  />
+                <img src="../App_Themes/Theme1885/Images/facebook.svg" alt="facebook"  />
               </a>
               <a class="icon" href="https://twitter.com/1885grill">
-                <img src="http://1885grill.com/1885/wp-content/themes/1885-Grill/assets/images/icons/social/twitter.svg" alt="twitter"  />
+                <img src="../App_Themes/Theme1885/Images/twitter.svg" alt="twitter"  />
               </a>
               <a class="icon" href="http://instagram.com/1885grill">
-                <img src="http://1885grill.com/1885/wp-content/themes/1885-Grill/assets/images/icons/social/instagram.svg" alt="instagram"  />
+                <img src="../App_Themes/Theme1885/Images/instagram.svg" alt="instagram"  />
               </a>
               <a class="icon" href="http://www.tripadvisor.com/Restaurant_Review-g54946-d4451210-Reviews-or10-1885_Grill-Chattanooga_Tennessee.html">
-                <img src="http://1885grill.com/1885/wp-content/themes/1885-Grill/assets/images/icons/social/tripadvisor.svg" alt="tripadvisor"  />
+                <img src="../App_Themes/Theme1885/Images/tripadvisor.svg" alt="tripadvisor"  />
               </a>
             </section>
           </div>
         </div>
       </footer>
+     </form>
     </body>
   </html>

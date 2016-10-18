@@ -1,1 +1,1 @@
-﻿<asp:Button CssClass="button" runat="server" />
+﻿<asp:LinkButton CssClass="button" runat="server" />
